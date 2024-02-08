@@ -1,0 +1,65 @@
+.HeaderContainer {
+    display: grid;
+    grid-template-columns: 300px auto 200px;
+    align-items: center;
+    padding: 5px 20px;
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .HeaderLogo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .HeaderLogo > img {
+    width: 70px;
+  }
+  
+  .HeaderLogo > span {
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+    opacity:0.74;
+    
+  }
+  
+  .HeaderSearch {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 30px;
+
+  }
+  .HeaderSearch > input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    flex: 1;
+  }
+  
+  .HeaderIcons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.74;
+  }
+  
+  .HeaderIcons > span {
+    display: flex;
+    align-items: center;
+    /* margin-left: 50px; */
+    gap: 30px;
+    justify-content: space-between;
+    
+
+   
+  }
+  .HeaderIcons > svg.MuiSvgIcon-root {
+    margin: 0px 10px;
+
+  }
+  
