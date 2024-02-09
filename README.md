@@ -6,6 +6,12 @@
 
 ![Screenshot (11)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/568fd134-d601-4c88-bd9f-f3b460a5bb0f)
 
+<h1>Authentication part:-</h1>
+
+
+
+![Screenshot (5)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/f6c9bc20-cd21-4835-b1a1-a36cd45d1650)
+
 
 
 
