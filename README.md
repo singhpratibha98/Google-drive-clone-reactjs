@@ -14,13 +14,33 @@
 
 
 
+![Screenshot (6)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/4119d9a4-f639-4903-8257-917dddf17de0)
+
+
+<h1>Adding a file in our google drive :-</h1>
 
 
 
 
+![Screenshot (4)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/0a980d28-6d86-4c9a-8cfb-3c034304f3d4)
 
 
 
+
+![Screenshot (7)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/b2923b4e-db84-4684-bfc6-9cf038344af6)
+
+
+
+![Screenshot (8)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/1592632e-eacc-4df3-83b7-c95183ff1ac9)
+
+
+
+
+![Screenshot (9)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/9556df5b-3e7b-462c-8d87-ceab0afde208)
+
+<h1>Delete button:-</h1>
+
+![Screenshot (10)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/6edabf16-57d4-4d3b-999e-bfa648b00654)
 
 
 
