@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+<h1>Project Overview :-</h1>
+<p>In this project I have created  google drive using google firebase. In which I have use the authentication using google.</p>
+
+<h1>Google firebase:-</h1>
+![Screenshot (11)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/1c0ffcb7-cd32-4a6f-97ae-9fa4413bb6df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Getting Started with Create React App![Uploading Screenshot (11).png…]()
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
