@@ -50,14 +50,20 @@
 
 
 
-     <h1>(2) firestore Database :-</h1>
+
+
+<h1>(2) Firestore Database :-</h1>
 
 
 ![Screenshot (13)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/0e64bb09-fe8e-43a3-afac-9ba6ed4bac9f)
 
 
 
-       <h1>(3) Storage :-</h1>
+
+
+
+
+<h1>(3) Storage :-</h1>
 
 
 ![Screenshot (14)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/13e3db12-2bd1-476b-8de8-4e37a5849613)
