@@ -6,20 +6,34 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import AppsOutlinedIcon from "@mui/icons-material/AppsOutlined";
 import { Avatar } from "@mui/material";
-import { db, storage } from "../Firebase";
+import { db, storage, auth } from "../Firebase";
 import firebase from "firebase";
+// import getDocs from "firebase/firestore";
+// import collection from "firebase/firestore";
+// import addDoc from "firebase/firestore";
 
 const Header = () => {
   const [change, setChange] = useState("");
 
-  const OnInputChange = (e) => {
-    setChange(e.target.value);
-    console.log(e.target.value);
+  //   const inputcollectioRef = collection(db , "myfiles");
 
-    // const filteredList = valuess.filter((item) =>
-    //   item.name.toLowerCase().includes(e.target.value.toLowerCase())
-    // );
-  };
+  //   const OnInputChange = async(e) => {
+  //     setChange(e.target.value);
+  //     console.log(e.target.value);
+  //     try{
+  //       const data = await getDocs(inputcollectioRef);
+  //       console.log("data is coming");
+  //       const filterData = data.docs.map((data)=>({
+  //         ...docs.data(),
+  //         id: document.id,
+  //       }));
+
+  //       console.log("filterData", filterData);
+  //       setChange(filterData);
+  //     }catch(err){
+  //       console.log(err);
+  //     }
+  // };
 
   // console.log(db.collection);
 
@@ -39,12 +53,7 @@ const Header = () => {
         </div>
         <div className="HeaderSearch">
           <SearchRoundedIcon />
-          <input
-            type="text"
-            placeholder="Search in Drive"
-            value={change}
-            onChange={OnInputChange}
-          />
+          <input type="text" placeholder="Search in Drive" value={change} />
           <FormatAlignCenterIcon />
         </div>
         <div className="HeaderIcons">

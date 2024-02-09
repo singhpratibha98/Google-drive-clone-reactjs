@@ -19,15 +19,17 @@ const Sidebar = () => {
   const handleFile = (e) => {
     if (e.target.files[0]) {
       setFile(e.target.files[0]);
-      
     }
   };
 
-//   console.log(file);
+  //   console.log(file);
 
   const handleUpload = (e) => {
     e.preventDefault();
     setUploading(true);
+
+    // TODO: this is use to store file/image/pdf in storage(firebase) & firestore db...
+
     storage
       .ref(`files/${file.name}`)
       .put(file)
@@ -47,7 +49,8 @@ const Sidebar = () => {
             setUploading(false);
             setFile(null);
             setOpen(false);
-            
+
+            alert("You have Successfully Uploaded the File...😊");
           });
       });
   };
@@ -70,6 +73,7 @@ const Sidebar = () => {
                     className="modal__file"
                     onChange={handleFile}
                   />
+
                   <input type="submit" className="modal__submit" />
                 </>
               )}
@@ -122,10 +126,9 @@ const Sidebar = () => {
             <progress size="tiny" value="50" max="100" />
             <span>600 MB of 15 GB used</span>
             <div>
-            <button >Get more storage</button>
+              <button>Get more storage</button>
+            </div>
           </div>
-          </div>
-          
         </div>
       </div>
     </>

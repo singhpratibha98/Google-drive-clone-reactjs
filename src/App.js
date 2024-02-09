@@ -36,10 +36,6 @@ const LoginWrapper = styled.div`
   }
 `;
 
-
-
-
-
 function App() {
   const [user, setUser] = useState(null);
 
@@ -49,8 +45,6 @@ function App() {
       .then(({ user }) => setUser(user))
       .catch((err) => alert(err));
   };
-
-  
 
   return (
     <>
