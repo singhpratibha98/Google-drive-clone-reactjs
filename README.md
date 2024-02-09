@@ -1,12 +1,10 @@
 <h1>Project Overview :-</h1>
 <p>In this project I have created  google drive using google firebase. In which I have use the authentication using google.</p>
 
-<h1>Google firebase:-</h1>
+<h1>Google firebase:-</p>
 
 
-
-[Screenshot (11)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/d239e4bf-d768-4422-a877-b4ec75e95beb)
-
+![Screenshot (11)](https://github.com/singhpratibha98/Google-drive-clone-reactjs/assets/129493126/568fd134-d601-4c88-bd9f-f3b460a5bb0f)
 
 
 
